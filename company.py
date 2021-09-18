@@ -1,4 +1,3 @@
-from employee import Employee
 from random import randint
 
 class Company():

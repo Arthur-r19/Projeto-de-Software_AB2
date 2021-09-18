@@ -1,5 +1,4 @@
 from commandpattern import Command_MAE_CANCELAR, Command_MAE_CONFIRMAR, Command_MAE_SINDICATO, Command_MAE_TIPODECONTRATO, Command_ME_ADICIONAR, Command_ME_LISTA, Command_ME_PONTO, Command_ME_VENDA, Command_ME_VOLTAR, Command_MEE_CANCELAR, Command_MEE_CONFIRMAR, Command_MEE_SINDICATO, Command_MEE_TIPODECONTRATO, Command_MP_EMPRESA, Command_MP_SINDICATO, Command_MS_LISTA, Command_MS_VOLTAR, Invoker, Receiver
-from employeefactory import EmployeeFactory
 from PySimpleGUI import PySimpleGUI as sg
 from datetime import datetime as dt
 from company import Company as company
@@ -8,7 +7,6 @@ from layoutcontroller import LayoutController
 from hourlyemployee import HourlyEmployee as Hemployee
 from commissionedemployee import CommissionedEmployee as Cemployee
 from salaryemployee import SalaryEmployee as Semployee
-import re
 
 #Funções
 def CheckPassword(user, password):
